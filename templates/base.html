@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div>
+                    <img class="chatbox__image--header" src="static/images/logo.jfif" alt="image">
+                </div>
+                <div>
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hello! I'm Botdeptrai. May I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="box_question">
+                <button class="button_question">Food menu</button>
+                <button class="button_question">Drink menu</button>
+                <button class="button_question">Best selling foods</button>
+                <button class="button_question">Best selling drinks</button>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+<!-- request.script_root là một biến môi trường được cung cấp bởi Flask để xác định đường dẫn gốc (root path) của ứng dụng web của bạn. -->
+<!-- chuyển đổi giá trị của request.script_root thành một đối tượng JSON. -->
+<script>
+    $SCRIPT_ROOT = {{ request.script_root|tojson }}; 
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

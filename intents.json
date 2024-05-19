@@ -1,0 +1,515 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Can I help you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Get lost",
+        "Till next time",
+        "bbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "buy",
+      "patterns": [
+        "What kinds of items are there?",
+        "Which items do you have?",
+        "What is the store's menu?",
+        "want to buy",
+        "buy st",
+        "sell",
+        "I want to buy st",
+        "I want to buy something",
+        "What do you sell?",
+        "What is sold here?",
+        "Please show me the restaurant's menu",
+        "menu",
+        "I need the menu",
+        "Can you show me the menu?",
+        "What does the store sell?"
+      ],
+      "responses": [
+        "Here we serve water and food. We have 2 types of menu: drink and food. Choose your favorite dish."
+      ]
+    },
+    {
+      "tag": "specific menu",
+      "patterns": [
+        "Burger",
+        "Pizza",
+        "French Fries",
+        "Sandwich",
+        "Salad",
+        "Wrap",
+        "Pasta",
+        "Fried Chicken",
+        "Spicy noodles",
+        "Kimpap",
+        "kimchi",
+        "tokbokki",
+        "sushi",
+        "rice paper",
+        "ricepaper",
+        "ice cream",
+        "coca cola",
+        "cocacola",
+        "coca-cola",
+        "pepsi",
+        "sprite",
+        "coffee",
+        "tea",
+        "smoothies",
+        "fruit juice",
+        "cocoa",
+        "Orange juice",
+        "Apple juice",
+        "watermelon juice",
+        "Espresso",
+        "Latte",
+        "cappuccino",
+        "Is there any",
+        "I want to eat",
+        "I want to buy",
+        "I want to order",
+        "I want more",
+        "I need to eat",
+        "I need to buy",
+        "I need to order",
+        "I need more",
+        "Give me a bottle of",
+        "Give me a can of",
+        "Give me a cup of",
+        "Give me a plate of",
+        "Give me a piece of",
+        "Give me a bowl of",
+        "Give me a serving of"
+      ],
+      "responses": [
+        "Please click on \"Food menu\" or \"Drink menu\" below to see menu details. To order, touch the image on the touch screen and fill in the quantity. If you want to remove it, do the same thing. Then press enter and pay. Please wait at the table for a moment and your food will be brought out quickly. If you make a mistake, please contact staff immediately for quick processing."
+      ]
+    },
+    {
+      "tag": "food_menu",
+      "patterns": [
+        "Can you display the food menu for me on the screen?",
+        "Tell me about the food options available.",
+        "How can I find information about the dishes?",
+        "Is the food menu available online?",
+        "Can I see the food menu?",
+        "May I view the food menu?",
+        "Where is the food menu located?",
+        "Please show me the food menu.",
+        "Do you have a food menu?",
+        "Show food menu",
+        "Show me all the dishes",
+        "I heard that the food menu is very diverse",
+        "food menu",
+        "food",
+        "Please show me the food menu",
+        "Give me the food menu"
+      ],
+      "responses": ["\nBurgers:\nBacon Burger - 65,000 VND\nChicken Burger - 75,000 VND\nHot Dogs:\nChili Dog - 45,000 VND\nCorn Dog - 30,000 VND\nSides:\nOnion Rings - 40,000 VND\nSide Salad - 25,000 VND\nDesserts:\nChocolate Sundae - 35,000 VND\nFiltered water and carbonated soft drinks are available at the counter and are served for free when you buy any food\nEnjoy your meal!"
+      ]
+    },
+    {
+      "tag": "drink_menu",
+      "patterns": [
+        "Can you display the drink menu for me on the screen?",
+        "Tell me about the drink food options available.",
+        "Is the drink menu available online?",
+        "Can I see the drink menu?",
+        "May I view the drink menu?",
+        "Where is the drink menu located?",
+        "Please show me the drink menu.",
+        "Do you have a drink menu?",
+        "Show drink menu",
+        "drink menu",
+        "drink",
+        "I heard that the drink menu is very diverse",
+        "What types of drinks are served?",
+        "What is the store's drink menu?",
+        "Please show me the drink menu",
+        "Give me the drink menu"
+      ],
+      "responses": ["\nPopular drinks:\nSoda - 15,000 VND\nBottled Water - 10,000 VND\nIced Tea - 10,000 VND\nHot Drinks:\nEspresso - 25,000 VND\nLatte - 35,000 VND\nPeach Tea - 35,000 VND\nCold Drinks:\nLemon Soda - 20,000 VND\nStrawberry Smoothie - 35,000 VND\nEgg Coffee - 45,000 VND\nEnjoy your meal!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Payment orders",
+        "Payment services are supported",
+        "payment service",
+        "Pay",
+        "How to pay",
+        "Common type of payment?",
+        "What types of payments does the store have?",
+        "Supported payment types",
+        "What payment types are supported?",
+        "Are there any additional fees for using credit cards?",
+        "Is contactless payment available?",
+        "Can I use Apple Pay for payment?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept many forms of payment including: cash, online transfer, using domestic bank cards, Apple Pay, Shopee Pay, Zalo Pay, Momo wallet, MasterCard and Paypal."
+      ]
+    },
+    {
+      "tag": "Long_distance_delivery",
+      "patterns": [
+        "Delivery at home",
+        "What are the available shipping methods for long-distance orders?",
+        "How long does it take for long-distance delivery to arrive?",
+        "What is the cost of long-distance shipping?",
+        "Where do you deliver to for long-distance orders?",
+        "Do you offer long-distance delivery services?",
+        "Big orders",
+        "want to buy in bulk",
+        "Buy in bulk",
+        "I want to buy in bulk",
+        "What about long distance delivery?",
+        "What if I receive goods remotely?",
+        "Long distance delivery",
+        "Long distance transportation",
+        "I want to order long distance shipping",
+        "I want to place a remote delivery order",
+        "Is long distance shipping supported?",
+        "How long is the shipping?",
+        "How long will it take for me to receive my order shipped far away?",
+        "Is shipping service available?",
+        "Store support is still converted?",
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "We only deliver within the city, your order will be processed immediately upon request. Delivery speed depends on the number of orders you request and the distance to be transported.\nNote: \nPlease deposit 50% in advance when order value is greater than 500,000 VND.\nDelivery price depends on the shipping unit.\nTrack your delivery progress on the store's app."
+      ]
+    },
+    {
+      "tag": "at_the_counter",
+      "patterns": [
+        "Delivery at the counter",
+        "Serve quickly",
+        "Do it quickly",
+        "Finish it soon",
+        "Please finish it soon",
+        "When will the dish be ready?",
+        "Am I about to receive the goods?",
+        "When will my order be completed?",
+        "How long will it take for the shop to complete?",
+        "How long will it take for me to receive my food?",
+        "How long will I have food?",
+        "I am very hungry. How long will it take for food to be delivered?",
+        "Will the food be ready soon?"
+      ],
+      "responses": [
+        "If you use it at the counter. Please wait a few minutes. Food will be brought out soon by staff.",
+        "If you eat at the counter, please wait a few minutes and your food will soon be ready."
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "How to order food",
+        "I want to order food, how can I do that?",
+        "How to order drinks",
+        "How can I order food",
+        "How can I order drink",
+        "I want to order a drink and pick it up at the shop, how do I do that?",
+        "order quickly",
+        "order",
+        "order now",
+        "order at the counter",
+        "I want to order"
+      ],
+      "responses": [
+        "To order, touch the image on the touch screen and fill in the quantity. If you want to remove it, do the same thing. Then press enter and pay. Please wait at the table for a moment and your food will be brought out quickly. If you make a mistake, please contact staff immediately for quick processing."
+      ]
+    },
+    {
+      "tag": "Best-selling drink",
+      "patterns": [
+        "Can you recommend the best drink on your menu?",
+        "Which beverage is the most popular here?",
+        "What is your specialty drink?",
+        "What's the customer favorite when it comes to drinks?",
+        "A must-try beverage that I shouldn't miss",
+        "What's the barista's recommendation?",
+        "Tell me about your house special drink.",
+        "Do you have a beverage known for its taste?",
+        "What's the go-to option for a first-time visitor when it comes to drinks?",
+        "What's your signature drink?",
+        "What is the most ordered drink at the bar?",
+        "Which drink is the most attractive?",
+        "Most ordered drink?",
+        "Most popular drink?",
+        "Favorite drink?",
+        "best selling drinks"
+      ],
+      "responses": [
+        "Oh that's Cocktails. However, experience them all to know which type is right for you.",
+        "Cocktails are a great choice. However, experience them all to know which type is right for you.",
+        "People usually like Cocktails. However, experience them all to know which type is right for you."
+      ]
+    },
+    {
+      "tag": "best-selling food",
+      "patterns": [
+        "What's the go-to option for a first-time visitor?",
+        "Do you have a dish that's famous for its taste?",
+        "Tell me about your house special.",
+        "What's the chef's recommendation?",
+        "A must-try dish that I shouldn't miss",
+        "What do most customers love to order here?",
+        "Which dish is your specialty?",
+        "What is the most popular item you serve?",
+        "Can you recommend the best dish on your menu?",
+        "What's your signature dish?",
+        "What is your favorite food here?",
+        "What is the restaurant's special dish?",
+        "Most ordered food?",
+        "Most popular food?",
+        "Which food sells best?",
+        "best selling foods",
+        "Favorite food"
+      ],
+      "responses": [
+        "Oh it's definitely the Double Deluxe Burger. However, experience them all to know which type is right for you.",
+        "Double Deluxe Burger is the best choice. However, experience them all to know which type is right for you.",
+        "Double Deluxe Burger is the most popular. However, experience them all to know which type is right for you."
+      ]
+    }, 
+    {
+      "tag": "complain",
+      "patterns": [
+        "There is no flexibility in accepting different payment types.",
+        "The credit card machine is not working.",
+        "The quality of raw materials used does not meet the requirements.",
+        "The ingredients used are not fresh.",
+        "The packaging of drinks is not discreet.",
+        "The drink leaked.",
+        "The food is ruined.",
+        "The food was spoiled when it reached me.",
+        "Staff were unclear about ingredients.",
+        "Staff was unclear about menu information.",
+        "Customers need to be advised of menu options.",
+        "The restaurant environment does not have enough space for customers.",
+        "Wi-Fi is not available.",
+        "Wi-Fi is unstable.",
+        "There is no place to charge the phone.",
+        "There is no place to charge the laptop.",
+        "There is no place to charge phones and laptops.",
+        "Service and product did not meet expectations.",
+        "I feel dissatisfied with the experience.",
+        "No variety in the menu.",
+        "Lack of dining options for people with special diets (vegetarians, vegetarians, people with allergies...)",
+        "The environment is not clean.",
+        "Staff do not comply with hygiene rules.",
+        "Service was slow, I had to wait a long time to be served.",
+        "Service was slow, I had to wait a long time to be served.",
+        "Unclear costs or hidden fees in the invoice.",
+        "The price is too expensive compared to the quality of food or drinks.",
+        "Toilet is dirty",
+        "The door is broken.",
+        "The fast food store is too noisy",
+        "The fast food store is too uncomfortable",
+        "The fast food store is too uncomfortable to enjoy the food.",
+        "The fast food store is too noisy to enjoy the food.",
+        "Tables were not cleared after the previous customer left.",
+        "Tables were not cleared.",
+        "Staff were not attentive to my needs.",
+        "Service was too slow, I had to wait too long.",
+        "Employees do not listen to customers' opinions.",
+        "Employees are not friendly.",
+        "The drinking water cup is broken.",
+        "The drinking water cup is dirty.",
+        "This drink is too sweet.",
+        "This drink is too bland.",
+        "The taste of the food were not as expected.",
+        "The smell of the food were not as expected.",
+        "The food is undercooked.",
+        "The food is poorly prepared.",
+        "Food was cold when brought to the table.",
+        "This dish does not match the description on the menu.",
+        "Bad staff attitude",
+        "The water is pale",
+        "The water is too sweet",
+        "the food is not good",
+        "I had a really bad experience",
+        "You need improvement",
+        "complain",
+        "Customer complaints",
+        "You are not good",
+        "I need to contact to make a complaint",
+        "you are useless",
+        "useless",
+        "you are bad"
+      ],
+      "responses": [
+        "We sincerely apologize for any inconvenience you have experienced. The quality of our service is always our top priority, and we are committed to improving to ensure that you have a better experience next time. We appreciate your feedback and will do our best to correct any issues. Hope to serve you better next time.Please mail your suggestions to botdeptrai@gmail.com. Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "preferential",
+      "patterns": [
+        "What offers does the store have?", 
+        "If I regularly shop, will there be any incentives?", 
+        "How attractive are the store offers?",
+        "What is the offer?"
+      ],
+      "responses": [
+        "First, you need to register for a member account on the store's homepage. The promotion program will always be updated on the official homepage. Please like and follow so you don't miss any exciting programs."
+      ]       
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact your boss",
+        "your boss",
+        "contact developer",
+        "contact programmer",
+        "contact creator",
+        "I want to find the restaurant owner",
+        "Please let me see the manager",
+        "I need to see the manager"
+      ],
+      "responses": [
+        "You can contact my creator at his phone number or email address: 0123456789, botdeptrai@gmail.com"
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "is the store open?",
+        "does the store operate?",
+        "What day can I come here?",
+        "Does the store sell on holidays?",
+        "does the store open",
+        "does the store close",
+        "operating time",
+        "open time"
+      ],
+      "responses": [
+        "Our store operates from Monday to Saturday every week, opening at 8am and closing at 10pm. During holidays, we will announce operating hours later."
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny",
+        "hihi",
+        "hehe"
+      ],
+      "responses": [
+        "Glad I could make you laugh!"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "Who made you?",
+        "who designed you?",
+        "who programmed you?",
+        "Who created you?"
+      ],
+      "responses": [
+        "I was made by Le Huy Hong Nhat, Nguyen Minh Quan, Ha Ninh Quang, Nguyen Duy Tu."
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good",
+        "you are so helpful"
+      ],
+      "responses": [
+        "Thank you!"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope",
+        "ok"
+      ],
+        "responses": [
+        "ok"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?", 
+        "Tell me about yourself", 
+        "Describe yourself"
+      ],
+      "responses": [
+        "I am trustworthy and built with the help of many open source creators",
+        "I am a naughty chatbot! And I love to chit chat with strangers!", 
+        "I am a bot! and am glad that You found me! Thank you", 
+        "I was made by a lot of open-source creators like you. Thank you for giving me a life."
+      ]       
+    }
+  ]
+}
